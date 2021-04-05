@@ -1,0 +1,39 @@
+C:\Users\Ismai\source\repos\application de hotele\application de hotele\obj\Debug\application de hotele.csprojAssemblyReference.cache
+C:\Users\Ismai\source\repos\application de hotele\application de hotele\obj\Debug\application_de_hotele.forms.Form_loding.resources
+C:\Users\Ismai\source\repos\application de hotele\application de hotele\obj\Debug\application_de_hotele.Properties.Resources.resources
+C:\Users\Ismai\source\repos\application de hotele\application de hotele\obj\Debug\application de hotele.csproj.GenerateResource.cache
+C:\Users\Ismai\source\repos\application de hotele\application de hotele\obj\Debug\application de hotele.csproj.CoreCompileInputs.cache
+C:\Users\Ismai\source\repos\application de hotele\application de hotele\bin\Debug\application de hotele.exe.config
+C:\Users\Ismai\source\repos\application de hotele\application de hotele\bin\Debug\application de hotele.exe
+C:\Users\Ismai\source\repos\application de hotele\application de hotele\bin\Debug\application de hotele.pdb
+C:\Users\Ismai\source\repos\application de hotele\application de hotele\obj\Debug\application de hotele.exe
+C:\Users\Ismai\source\repos\application de hotele\application de hotele\obj\Debug\application de hotele.pdb
+C:\Users\Ismai\source\repos\application de hotele\application de hotele\obj\Debug\application_de_hotele.forms.login.resources
+C:\Users\Ismai\source\repos\application de hotele\application de hotele\obj\Debug\application_de_hotele.forms.Menu_pr.resources
+C:\Users\Ismai\source\repos\application de hotele\application de hotele\bin\Debug\EntityFramework.dll
+C:\Users\Ismai\source\repos\application de hotele\application de hotele\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Ismai\source\repos\application de hotele\application de hotele\bin\Debug\EntityFramework.xml
+C:\Users\Ismai\source\repos\application de hotele\application de hotele\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Ismai\source\repos\application de hotele\application de hotele\bin\Debug\fr\EntityFramework.resources.dll
+C:\Users\Ismai\source\repos\application de hotele\application de hotele\obj\Debug\application de hotele.csproj.CopyComplete
+C:\Users\eloua\OneDrive - Zagreus\OneDrive - OFPPT\Bureau\application de hotele\application de hotele\application de hotele\bin\Debug\application de hotele.exe.config
+C:\Users\eloua\OneDrive - Zagreus\OneDrive - OFPPT\Bureau\application de hotele\application de hotele\application de hotele\bin\Debug\application de hotele.exe
+C:\Users\eloua\OneDrive - Zagreus\OneDrive - OFPPT\Bureau\application de hotele\application de hotele\application de hotele\bin\Debug\application de hotele.pdb
+C:\Users\eloua\OneDrive - Zagreus\OneDrive - OFPPT\Bureau\application de hotele\application de hotele\application de hotele\bin\Debug\EntityFramework.dll
+C:\Users\eloua\OneDrive - Zagreus\OneDrive - OFPPT\Bureau\application de hotele\application de hotele\application de hotele\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\eloua\OneDrive - Zagreus\OneDrive - OFPPT\Bureau\application de hotele\application de hotele\application de hotele\bin\Debug\EntityFramework.xml
+C:\Users\eloua\OneDrive - Zagreus\OneDrive - OFPPT\Bureau\application de hotele\application de hotele\application de hotele\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\eloua\OneDrive - Zagreus\OneDrive - OFPPT\Bureau\application de hotele\application de hotele\application de hotele\bin\Debug\fr\EntityFramework.resources.dll
+C:\Users\eloua\OneDrive - Zagreus\OneDrive - OFPPT\Bureau\application de hotele\application de hotele\application de hotele\obj\Debug\application de hotele.csprojAssemblyReference.cache
+C:\Users\eloua\OneDrive - Zagreus\OneDrive - OFPPT\Bureau\application de hotele\application de hotele\application de hotele\obj\Debug\application_de_hotele.forms.Form_loding.resources
+C:\Users\eloua\OneDrive - Zagreus\OneDrive - OFPPT\Bureau\application de hotele\application de hotele\application de hotele\obj\Debug\application_de_hotele.forms.login.resources
+C:\Users\eloua\OneDrive - Zagreus\OneDrive - OFPPT\Bureau\application de hotele\application de hotele\application de hotele\obj\Debug\application_de_hotele.forms.Menu_pr.resources
+C:\Users\eloua\OneDrive - Zagreus\OneDrive - OFPPT\Bureau\application de hotele\application de hotele\application de hotele\obj\Debug\application_de_hotele.Properties.Resources.resources
+C:\Users\eloua\OneDrive - Zagreus\OneDrive - OFPPT\Bureau\application de hotele\application de hotele\application de hotele\obj\Debug\application de hotele.csproj.GenerateResource.cache
+C:\Users\eloua\OneDrive - Zagreus\OneDrive - OFPPT\Bureau\application de hotele\application de hotele\application de hotele\obj\Debug\application de hotele.csproj.CoreCompileInputs.cache
+C:\Users\eloua\OneDrive - Zagreus\OneDrive - OFPPT\Bureau\application de hotele\application de hotele\application de hotele\obj\Debug\application de hotele.csproj.CopyComplete
+C:\Users\eloua\OneDrive - Zagreus\OneDrive - OFPPT\Bureau\application de hotele\application de hotele\application de hotele\obj\Debug\application de hotele.exe
+C:\Users\eloua\OneDrive - Zagreus\OneDrive - OFPPT\Bureau\application de hotele\application de hotele\application de hotele\obj\Debug\application de hotele.pdb
+C:\Users\eloua\OneDrive - Zagreus\OneDrive - OFPPT\Bureau\application de hotele\application de hotele\application de hotele\bin\Debug\zu\application de hotele.resources.dll
+C:\Users\eloua\OneDrive - Zagreus\OneDrive - OFPPT\Bureau\application de hotele\application de hotele\application de hotele\obj\Debug\application_de_hotele.forms.Form_loding.zu.resources
+C:\Users\eloua\OneDrive - Zagreus\OneDrive - OFPPT\Bureau\application de hotele\application de hotele\application de hotele\obj\Debug\zu\application de hotele.resources.dll
