@@ -46,7 +46,6 @@ namespace application_de_hotele.forms
 
         private void Form_loding_Load(object sender, EventArgs e)
         {
-
             this.BackColor = Color.FromArgb(26, 26, 26);
             timer1.Start();
         }

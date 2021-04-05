@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-  <EntityContainerMapping StorageEntityContainer="usersModelStoreContainer" CdmEntityContainer="usersEntities">
-    <EntitySetMapping Name="Admins">
-      <EntityTypeMapping TypeName="usersModel.Admin">
-        <MappingFragment StoreEntitySet="Admins">
-          <ScalarProperty Name="Username" ColumnName="Username" />
-          <ScalarProperty Name="Pass" ColumnName="Pass" />
+  <EntityContainerMapping StorageEntityContainer="UserModelStoreContainer" CdmEntityContainer="UserEntities">
+    <EntitySetMapping Name="connections">
+      <EntityTypeMapping TypeName="UserModel.connection">
+        <MappingFragment StoreEntitySet="connection">
+          <ScalarProperty Name="username" ColumnName="username" />
+          <ScalarProperty Name="pass" ColumnName="pass" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>

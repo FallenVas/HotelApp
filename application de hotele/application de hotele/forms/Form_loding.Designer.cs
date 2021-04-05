@@ -38,8 +38,8 @@ namespace application_de_hotele.forms
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -76,20 +76,20 @@ namespace application_de_hotele.forms
             // 
             // pictureBox1
             // 
+            resources.ApplyResources(this.pictureBox1, "pictureBox1");
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Image = global::application_de_hotele.Properties.Resources.LogoTrans;
-            resources.ApplyResources(this.pictureBox1, "pictureBox1");
             this.pictureBox1.InitialImage = global::application_de_hotele.Properties.Resources._35181_NZV3DS;
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.TabStop = false;
             // 
             // panel1
             // 
+            resources.ApplyResources(this.panel1, "panel1");
             this.panel1.BackColor = System.Drawing.Color.Transparent;
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.progre_load);
             this.panel1.Controls.Add(this.porsontage);
-            resources.ApplyResources(this.panel1, "panel1");
             this.panel1.Name = "panel1";
             // 
             // panel2
@@ -101,12 +101,6 @@ namespace application_de_hotele.forms
             resources.ApplyResources(this.panel2, "panel2");
             this.panel2.Name = "panel2";
             // 
-            // imageList1
-            // 
-            this.imageList1.ColorDepth = System.Windows.Forms.ColorDepth.Depth8Bit;
-            resources.ApplyResources(this.imageList1, "imageList1");
-            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
-            // 
             // pictureBox2
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
@@ -115,6 +109,12 @@ namespace application_de_hotele.forms
             this.pictureBox2.InitialImage = global::application_de_hotele.Properties.Resources._35181_NZV3DS;
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.TabStop = false;
+            // 
+            // imageList1
+            // 
+            this.imageList1.ColorDepth = System.Windows.Forms.ColorDepth.Depth8Bit;
+            resources.ApplyResources(this.imageList1, "imageList1");
+            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
             // 
             // Form_loding
             // 

@@ -4,43 +4,43 @@
   <edmx:Runtime>
     <!-- SSDL content -->
     <edmx:StorageModels>
-      <Schema Namespace="usersModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
-        <EntityType Name="Admins">
+      <Schema Namespace="UserModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012.Azure" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="connection">
           <Key>
-            <PropertyRef Name="Username" />
+            <PropertyRef Name="username" />
           </Key>
-          <Property Name="Username" Type="varchar" MaxLength="255" Nullable="false" />
-          <Property Name="Pass" Type="varchar" MaxLength="255" />
+          <Property Name="username" Type="varchar" MaxLength="255" Nullable="false" />
+          <Property Name="pass" Type="varchar" MaxLength="255" />
         </EntityType>
-        <EntityContainer Name="usersModelStoreContainer">
-          <EntitySet Name="Admins" EntityType="Self.Admins" Schema="dbo" store:Type="Tables" />
+        <EntityContainer Name="UserModelStoreContainer">
+          <EntitySet Name="connection" EntityType="Self.connection" Schema="dbo" store:Type="Tables" />
         </EntityContainer>
       </Schema>
     </edmx:StorageModels>
     <!-- CSDL content -->
     <edmx:ConceptualModels>
-      <Schema Namespace="usersModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
-        <EntityType Name="Admin">
+      <Schema Namespace="UserModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="connection">
           <Key>
-            <PropertyRef Name="Username" />
+            <PropertyRef Name="username" />
           </Key>
-          <Property Name="Username" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
-          <Property Name="Pass" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="username" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="pass" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
         </EntityType>
-        <EntityContainer Name="usersEntities" annotation:LazyLoadingEnabled="true">
-          <EntitySet Name="Admins" EntityType="Self.Admin" />
+        <EntityContainer Name="UserEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="connections" EntityType="Self.connection" />
         </EntityContainer>
       </Schema>
     </edmx:ConceptualModels>
     <!-- C-S mapping content -->
     <edmx:Mappings>
       <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-        <EntityContainerMapping StorageEntityContainer="usersModelStoreContainer" CdmEntityContainer="usersEntities">
-          <EntitySetMapping Name="Admins">
-            <EntityTypeMapping TypeName="usersModel.Admin">
-              <MappingFragment StoreEntitySet="Admins">
-                <ScalarProperty Name="Username" ColumnName="Username" />
-                <ScalarProperty Name="Pass" ColumnName="Pass" />
+        <EntityContainerMapping StorageEntityContainer="UserModelStoreContainer" CdmEntityContainer="UserEntities">
+          <EntitySetMapping Name="connections">
+            <EntityTypeMapping TypeName="UserModel.connection">
+              <MappingFragment StoreEntitySet="connection">
+                <ScalarProperty Name="username" ColumnName="username" />
+                <ScalarProperty Name="pass" ColumnName="pass" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>

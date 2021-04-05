@@ -10,8 +10,10 @@ using System.Windows.Forms;
 
 namespace application_de_hotele.forms
 {
+    
     public partial class Menu_pr : Form
     {
+        int startLoad = 0;
         public Menu_pr()
         {
             InitializeComponent();
@@ -21,5 +23,42 @@ namespace application_de_hotele.forms
         {
 
         }
+
+        private void clntButton_MouseEnter(object sender, EventArgs e)
+        {
+            
+            clntButton.BackColor = Color.FromArgb(255, 182, 6);
+        }
+
+        private void roomButton_MouseEnter(object sender, EventArgs e)
+        {
+            roomButton.BackColor = Color.FromArgb(255, 182, 6);
+        }
+        private void clntButton_MouseLeave(object sender, EventArgs e)
+        {
+
+            clntButton.BackColor = Color.Transparent;
+        }
+
+        private void roomButton_MouseLeave(object sender, EventArgs e)
+        {
+            roomButton.BackColor = Color.Transparent;
+        }
+        private void rptButton_MouseEnter(object sender, EventArgs e)
+        {
+            rptButton.BackColor = Color.FromArgb(255, 182, 6);
+        }
+
+        private void rptButton_MouseLeave(object sender, EventArgs e)
+        {
+            rptButton.BackColor = Color.Transparent;
+        }
+
+        private void panel3_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        
     }
 }

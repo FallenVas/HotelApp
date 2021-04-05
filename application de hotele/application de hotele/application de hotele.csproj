@@ -55,10 +55,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Admin.cs">
+    <Compile Include="classe\Connextion.cs" />
+    <Compile Include="connection.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
-    <Compile Include="classe\Connextion.cs" />
     <Compile Include="forms\Form_loding.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -161,6 +161,11 @@
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\LogoTrans.png" />
+    <None Include="Resources\background.png" />
+    <None Include="Resources\35181-NZV3DS%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
     <Content Include="Model1.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>Model1.edmx</DependentUpon>
@@ -171,9 +176,6 @@
       <DependentUpon>Model1.edmx</DependentUpon>
       <LastGenOutput>Model1.cs</LastGenOutput>
     </Content>
-    <None Include="Resources\LogoTrans.png" />
-    <None Include="Resources\background.png" />
-    <None Include="Resources\35181-NZV3DS%402x.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
