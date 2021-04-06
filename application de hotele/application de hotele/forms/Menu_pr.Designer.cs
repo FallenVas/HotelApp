@@ -178,6 +178,7 @@ namespace application_de_hotele.forms
             this.clntButton.TabIndex = 0;
             this.clntButton.Text = "Clients";
             this.clntButton.UseVisualStyleBackColor = false;
+            this.clntButton.Click += new System.EventHandler(this.clntButton_Click);
             this.clntButton.MouseEnter += new System.EventHandler(this.clntButton_MouseEnter);
             this.clntButton.MouseLeave += new System.EventHandler(this.clntButton_MouseLeave);
             // 

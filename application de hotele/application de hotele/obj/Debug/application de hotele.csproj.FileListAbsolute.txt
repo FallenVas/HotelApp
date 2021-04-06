@@ -37,3 +37,16 @@ C:\Users\eloua\OneDrive - Zagreus\OneDrive - OFPPT\Bureau\application de hotele\
 C:\Users\eloua\OneDrive - Zagreus\OneDrive - OFPPT\Bureau\application de hotele\application de hotele\application de hotele\bin\Debug\zu\application de hotele.resources.dll
 C:\Users\eloua\OneDrive - Zagreus\OneDrive - OFPPT\Bureau\application de hotele\application de hotele\application de hotele\obj\Debug\application_de_hotele.forms.Form_loding.zu.resources
 C:\Users\eloua\OneDrive - Zagreus\OneDrive - OFPPT\Bureau\application de hotele\application de hotele\application de hotele\obj\Debug\zu\application de hotele.resources.dll
+C:\Users\eloua\OneDrive - Zagreus\OneDrive - OFPPT\Bureau\application de hotele\application de hotele\application de hotele\bin\Debug\Bunifu.UI.WinForms.BunifuColorTransition.dll
+C:\Users\eloua\OneDrive - Zagreus\OneDrive - OFPPT\Bureau\application de hotele\application de hotele\application de hotele\bin\Debug\Bunifu.UI.WinForms.BunifuDataGridView.dll
+C:\Users\eloua\OneDrive - Zagreus\OneDrive - OFPPT\Bureau\application de hotele\application de hotele\application de hotele\bin\Debug\Bunifu.UI.WinForms.BunifuImageButton.dll
+C:\Users\eloua\OneDrive - Zagreus\OneDrive - OFPPT\Bureau\application de hotele\application de hotele\application de hotele\bin\Debug\Bunifu.UI.WinForms.BunifuProgressBar.dll
+C:\Users\eloua\OneDrive - Zagreus\OneDrive - OFPPT\Bureau\application de hotele\application de hotele\application de hotele\bin\Debug\Bunifu.UI.WinForms.BunifuSlider.dll
+C:\Users\eloua\OneDrive - Zagreus\OneDrive - OFPPT\Bureau\application de hotele\application de hotele\application de hotele\obj\Debug\application de hotele.exe.config
+C:\Users\eloua\OneDrive - Zagreus\OneDrive - OFPPT\Bureau\application de hotele\application de hotele\application de hotele\obj\Debug\application_de_hotele.forms.ClientForm.resources
+C:\Users\eloua\OneDrive - Zagreus\OneDrive - OFPPT\Bureau\application de hotele\application de hotele\application de hotele\obj\Debug\application de hotele.exe.licenses
+C:\Users\eloua\OneDrive - Zagreus\OneDrive - OFPPT\Bureau\application de hotele\application de hotele\application de hotele\bin\Debug\Bunifu.UI.WinForms.BunifuButton.dll
+C:\Users\eloua\OneDrive - Zagreus\OneDrive - OFPPT\Bureau\application de hotele\application de hotele\application de hotele\bin\Debug\Bunifu.UI.WinForms.BunifuPanel.dll
+C:\Users\eloua\OneDrive - Zagreus\OneDrive - OFPPT\Bureau\application de hotele\application de hotele\application de hotele\bin\Debug\Bunifu.UI.WinForms.BunifuPictureBox.dll
+C:\Users\eloua\OneDrive - Zagreus\OneDrive - OFPPT\Bureau\application de hotele\application de hotele\application de hotele\bin\Debug\Bunifu.UI.WinForms.BunifuShadowPanel.dll
+C:\Users\eloua\OneDrive - Zagreus\OneDrive - OFPPT\Bureau\application de hotele\application de hotele\application de hotele\bin\Debug\Bunifu.UI.WinForms.BunifuLabel.dll

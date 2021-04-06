@@ -41,13 +41,16 @@ namespace application_de_hotele.forms
                 log.Show();
                 this.Hide();
             }
-
+            
+           
         }
 
         private void Form_loding_Load(object sender, EventArgs e)
         {
             this.BackColor = Color.FromArgb(26, 26, 26);
             timer1.Start();
+            progre_load.BackColor = Color.Goldenrod;
+            progre_load.ForeColor = Color.Goldenrod;
         }
 
         private void progre_load_Click(object sender, EventArgs e)

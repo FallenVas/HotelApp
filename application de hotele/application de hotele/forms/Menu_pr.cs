@@ -59,6 +59,11 @@ namespace application_de_hotele.forms
             this.Close();
         }
 
-        
+        private void clntButton_Click(object sender, EventArgs e)
+        {
+            ClientForm cl = new ClientForm();
+            cl.Show();
+            this.Close();
+        }
     }
 }
