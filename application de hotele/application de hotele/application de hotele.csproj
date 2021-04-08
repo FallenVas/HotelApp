@@ -164,15 +164,33 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AnotherOne.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AnotherOne.Designer.cs">
+      <DependentUpon>AnotherOne.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\addControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\addControl.Designer.cs">
+      <DependentUpon>addControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="classe\Connextion.cs" />
     <Compile Include="connection.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
-    <Compile Include="forms\ClientForm.cs">
-      <SubType>Form</SubType>
+    <Compile Include="Controls\RemoveControl.cs">
+      <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="forms\ClientForm.Designer.cs">
-      <DependentUpon>ClientForm.cs</DependentUpon>
+    <Compile Include="Controls\RemoveControl.Designer.cs">
+      <DependentUpon>RemoveControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\UpdateControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\UpdateControl.Designer.cs">
+      <DependentUpon>UpdateControl.cs</DependentUpon>
     </Compile>
     <Compile Include="forms\Form_loding.cs">
       <SubType>Form</SubType>
@@ -185,6 +203,12 @@
     </Compile>
     <Compile Include="forms\login.Designer.cs">
       <DependentUpon>login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\MainHub.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\MainHub.Designer.cs">
+      <DependentUpon>MainHub.cs</DependentUpon>
     </Compile>
     <Compile Include="forms\Menu_pr.cs">
       <SubType>Form</SubType>
@@ -209,8 +233,23 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="forms\ClientForm.resx">
-      <DependentUpon>ClientForm.cs</DependentUpon>
+    <Compile Include="Controls\UserControl1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\UserControl1.Designer.cs">
+      <DependentUpon>UserControl1.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AnotherOne.resx">
+      <DependentUpon>AnotherOne.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\addControl.resx">
+      <DependentUpon>addControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\RemoveControl.resx">
+      <DependentUpon>RemoveControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\UpdateControl.resx">
+      <DependentUpon>UpdateControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="forms\Form_loding.resx">
       <DependentUpon>Form_loding.cs</DependentUpon>
@@ -220,6 +259,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="forms\login.resx">
       <DependentUpon>login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\MainHub.resx">
+      <DependentUpon>MainHub.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="forms\Menu_pr.resx">
       <DependentUpon>Menu_pr.cs</DependentUpon>
@@ -235,6 +277,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Controls\UserControl1.resx">
+      <DependentUpon>UserControl1.cs</DependentUpon>
+    </EmbeddedResource>
     <EntityDeploy Include="Model1.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
       <LastGenOutput>Model1.Designer.cs</LastGenOutput>
@@ -295,6 +340,18 @@
       <DependentUpon>Model1.edmx</DependentUpon>
       <LastGenOutput>Model1.cs</LastGenOutput>
     </Content>
+    <None Include="Resources\anotherOne.gif" />
+    <None Include="Resources\search_48px.png" />
+    <None Include="Resources\search_64px.png" />
+    <None Include="Resources\search_128px.png" />
+    <None Include="Resources\search_240px.png" />
+    <None Include="Resources\back_240px.png" />
+    <None Include="Resources\update_240px.png" />
+    <None Include="Resources\minus_240px.png" />
+    <None Include="Resources\add_240px.png" />
+    <None Include="Resources\database_52px1.png" />
+    <None Include="Resources\database_52px.png" />
+    <None Include="Resources\user_64px.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

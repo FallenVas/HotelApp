@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Threading;
 
 namespace application_de_hotele.forms
 {
@@ -58,11 +59,16 @@ namespace application_de_hotele.forms
         {
             this.Close();
         }
-
+        Thread th;
         private void clntButton_Click(object sender, EventArgs e)
         {
-            ClientForm cl = new ClientForm();
-            cl.Show();
+            void thread()
+            {
+                Application.Run(new MainHub());
+            }
+            th = new Thread(thread);
+            th.SetApartmentState(ApartmentState.STA);
+            th.Start();
             this.Close();
         }
     }
