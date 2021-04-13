@@ -46,7 +46,12 @@ namespace application_de_hotele
 
         private void addBtn_Click(object sender, EventArgs e)
         {
-            using(SqlConnection cn = new SqlConnection(cnxStr))
+            if (nomTxt.Text == "" || prenomTxt.Text == "" || cinTxt.Text == "")
+            {
+                MessageBox.Show("Fill in the informations please");
+                return;
+            }
+            using (SqlConnection cn = new SqlConnection(cnxStr))
             {
                 cn.Open();
                 string query = "insert into client (idClient, nomClient, prenomClient, cinClient, dateDebut, dateFin, checkedIn, roomNumber) values (@idClient,@nomClient,@prenomClient,@cinClient,@dateDebut,@dateFin,@checkedIn,@roomNumber)";
@@ -66,6 +71,7 @@ namespace application_de_hotele
                 getAvailableRooms();
             }
         }
+
         private int getCheckedIn()
         {
             if (CheckedIn.Checked)

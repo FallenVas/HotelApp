@@ -29,6 +29,10 @@ namespace application_de_hotele.Controls
         {
             using (SqlConnection cn = new SqlConnection(cnxStr))
             {
+                if (searchTxt.Text == "")
+                {
+                    return;
+                }
                 cn.Open();
                 SqlCommand command = new SqlCommand();
                 if (searchTxt.Text.Trim().Length > 0)
@@ -59,6 +63,14 @@ namespace application_de_hotele.Controls
 
         private void removeBtn_Click(object sender, EventArgs e)
         {
+            if (searchTxt.Text == "")
+            {
+                return;
+            }
+            if (GridData.Rows.Count == 0)
+            {
+                return;
+            }
             using (SqlConnection cn = new SqlConnection(cnxStr))
             {
                 cn.Open();

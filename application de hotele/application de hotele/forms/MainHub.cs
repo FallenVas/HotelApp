@@ -70,5 +70,10 @@ namespace application_de_hotele.forms
             control.Dock = DockStyle.Fill;
             mainAreaPanel.Controls.Add(control);
         }
+
+        private void bunifuFormDock1_FormDragging(object sender, Bunifu.UI.WinForms.BunifuFormDock.FormDraggingEventArgs e)
+        {
+
+        }
     }
 }

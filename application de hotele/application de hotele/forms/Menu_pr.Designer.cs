@@ -160,6 +160,7 @@ namespace application_de_hotele.forms
             this.roomButton.TabIndex = 4;
             this.roomButton.Text = "Rooms";
             this.roomButton.UseVisualStyleBackColor = false;
+            this.roomButton.Click += new System.EventHandler(this.roomButton_Click);
             this.roomButton.MouseEnter += new System.EventHandler(this.roomButton_MouseEnter);
             this.roomButton.MouseLeave += new System.EventHandler(this.roomButton_MouseLeave);
             // 

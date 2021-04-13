@@ -8,13 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Threading;
-
+using System.Data.SqlClient;
 namespace application_de_hotele.forms
 {
     
     public partial class Menu_pr : Form
     {
-        int startLoad = 0;
+        string cnxStr = "Server=3elhotel.database.windows.net;Database=fakeData;User Id=nightzokssa;Password=Darkzokssa1;";
         public Menu_pr()
         {
             InitializeComponent();
@@ -22,7 +22,13 @@ namespace application_de_hotele.forms
 
         private void Menu_pr_Load(object sender, EventArgs e)
         {
-
+            using(SqlConnection cn = new SqlConnection(cnxStr))
+            {
+                SqlCommand command = new SqlCommand("refresh", cn);
+                command.CommandType = CommandType.StoredProcedure;
+                cn.Open();
+                command.ExecuteNonQuery();
+            }
         }
 
         private void clntButton_MouseEnter(object sender, EventArgs e)
@@ -65,6 +71,18 @@ namespace application_de_hotele.forms
             void thread()
             {
                 Application.Run(new MainHub());
+            }
+            th = new Thread(thread);
+            th.SetApartmentState(ApartmentState.STA);
+            th.Start();
+            this.Close();
+        }
+
+        private void roomButton_Click(object sender, EventArgs e)
+        {
+            void thread()
+            {
+                Application.Run(new Rooms());
             }
             th = new Thread(thread);
             th.SetApartmentState(ApartmentState.STA);

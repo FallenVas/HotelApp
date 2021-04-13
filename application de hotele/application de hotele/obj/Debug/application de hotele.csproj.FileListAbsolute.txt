@@ -114,3 +114,4 @@ C:\Users\eloua\OneDrive - Zagreus\OneDrive - OFPPT\Bureau\application de hotele\
 C:\Users\eloua\OneDrive - Zagreus\OneDrive - OFPPT\Bureau\application de hotele\application de hotele\application de hotele\obj\Debug\application_de_hotele.AnotherOne.resources
 C:\Users\eloua\OneDrive - Zagreus\OneDrive - OFPPT\Bureau\application de hotele\application de hotele\application de hotele\obj\Debug\application_de_hotele.Controls.RemoveControl.resources
 C:\Users\eloua\OneDrive - Zagreus\OneDrive - OFPPT\Bureau\application de hotele\application de hotele\application de hotele\obj\Debug\application_de_hotele.Controls.UpdateControl.resources
+C:\Users\eloua\OneDrive - Zagreus\OneDrive - OFPPT\Bureau\application de hotele\application de hotele\application de hotele\obj\Debug\application_de_hotele.forms.Rooms.resources

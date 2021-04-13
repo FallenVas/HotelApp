@@ -65,6 +65,11 @@ namespace application_de_hotele.Controls
 
         private void addBtn_Click(object sender, EventArgs e)
         {
+            if (nomTxt.Text == "" || prenomTxt.Text == "" || cinTxt.Text == "")
+            {
+                MessageBox.Show("Fill in the informations please");
+                return;
+            }
             using (SqlConnection cn = new SqlConnection(cnxStr))
             {
                 cn.Open();
@@ -79,6 +84,14 @@ namespace application_de_hotele.Controls
                 command.Parameters.AddWithValue("@checkedIn", getCheckedIn());
                 command.ExecuteNonQuery();
                 MessageBox.Show("Client Has Updated Successfully");
+            }
+        }
+        private void validateData()
+        {
+            if (nomTxt.Text == "" || prenomTxt.Text == "" || cinTxt.Text == "")
+            {
+                MessageBox.Show("Fill in the informations please");
+                return;
             }
         }
         private int getCheckedIn()
