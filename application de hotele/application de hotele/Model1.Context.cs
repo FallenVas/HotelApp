@@ -13,10 +13,10 @@ namespace application_de_hotele
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class UserEntities : DbContext
+    public partial class HotelAppEntities : DbContext
     {
-        public UserEntities()
-            : base("name=UserEntities")
+        public HotelAppEntities()
+            : base("name=HotelAppEntities")
         {
         }
     
@@ -25,6 +25,6 @@ namespace application_de_hotele
             throw new UnintentionalCodeFirstException();
         }
     
-        public virtual DbSet<connection> connections { get; set; }
+        public virtual DbSet<user> users { get; set; }
     }
 }

@@ -588,7 +588,7 @@ namespace application_de_hotele
             this.addBtn.IdleIconLeftImage = null;
             this.addBtn.IdleIconRightImage = null;
             this.addBtn.IndicateFocus = false;
-            this.addBtn.Location = new System.Drawing.Point(246, 280);
+            this.addBtn.Location = new System.Drawing.Point(266, 280);
             this.addBtn.Name = "addBtn";
             this.addBtn.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.addBtn.OnDisabledState.BorderRadius = 30;
@@ -667,7 +667,7 @@ namespace application_de_hotele
             this.roomCombo.ItemTopMargin = 3;
             this.roomCombo.Location = new System.Drawing.Point(220, 190);
             this.roomCombo.Name = "roomCombo";
-            this.roomCombo.Size = new System.Drawing.Size(176, 32);
+            this.roomCombo.Size = new System.Drawing.Size(196, 32);
             this.roomCombo.TabIndex = 15;
             this.roomCombo.Text = null;
             this.roomCombo.TextAlignment = Bunifu.UI.WinForms.BunifuDropdown.TextAlign.Left;
@@ -765,7 +765,7 @@ namespace application_de_hotele
             this.dateDebut.Location = new System.Drawing.Point(220, 15);
             this.dateDebut.MinimumSize = new System.Drawing.Size(4, 32);
             this.dateDebut.Name = "dateDebut";
-            this.dateDebut.Size = new System.Drawing.Size(165, 32);
+            this.dateDebut.Size = new System.Drawing.Size(196, 32);
             this.dateDebut.TabIndex = 10;
             this.dateDebut.Value = new System.DateTime(2021, 4, 8, 8, 35, 0, 0);
             // 
@@ -808,7 +808,7 @@ namespace application_de_hotele
             this.dateFin.Location = new System.Drawing.Point(220, 75);
             this.dateFin.MinimumSize = new System.Drawing.Size(4, 32);
             this.dateFin.Name = "dateFin";
-            this.dateFin.Size = new System.Drawing.Size(165, 32);
+            this.dateFin.Size = new System.Drawing.Size(196, 32);
             this.dateFin.TabIndex = 11;
             this.dateFin.Value = new System.DateTime(2021, 4, 8, 8, 36, 0, 0);
             // 

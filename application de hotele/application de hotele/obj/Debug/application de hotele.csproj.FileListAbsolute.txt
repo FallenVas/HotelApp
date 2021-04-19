@@ -24,7 +24,6 @@ C:\Users\eloua\OneDrive - Zagreus\OneDrive - OFPPT\Bureau\application de hotele\
 C:\Users\eloua\OneDrive - Zagreus\OneDrive - OFPPT\Bureau\application de hotele\application de hotele\application de hotele\bin\Debug\EntityFramework.xml
 C:\Users\eloua\OneDrive - Zagreus\OneDrive - OFPPT\Bureau\application de hotele\application de hotele\application de hotele\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\eloua\OneDrive - Zagreus\OneDrive - OFPPT\Bureau\application de hotele\application de hotele\application de hotele\bin\Debug\fr\EntityFramework.resources.dll
-C:\Users\eloua\OneDrive - Zagreus\OneDrive - OFPPT\Bureau\application de hotele\application de hotele\application de hotele\obj\Debug\application de hotele.csprojAssemblyReference.cache
 C:\Users\eloua\OneDrive - Zagreus\OneDrive - OFPPT\Bureau\application de hotele\application de hotele\application de hotele\obj\Debug\application_de_hotele.forms.Form_loding.resources
 C:\Users\eloua\OneDrive - Zagreus\OneDrive - OFPPT\Bureau\application de hotele\application de hotele\application de hotele\obj\Debug\application_de_hotele.forms.login.resources
 C:\Users\eloua\OneDrive - Zagreus\OneDrive - OFPPT\Bureau\application de hotele\application de hotele\application de hotele\obj\Debug\application_de_hotele.forms.Menu_pr.resources
@@ -107,7 +106,6 @@ C:\Users\eloua\OneDrive - Zagreus\OneDrive - OFPPT\Bureau\application de hotele\
 C:\Users\eloua\OneDrive - Zagreus\OneDrive - OFPPT\Bureau\application de hotele\application de hotele\application de hotele\bin\Debug\Bunifu.UI.WinForms.BunifuTransition.xml
 C:\Users\eloua\OneDrive - Zagreus\OneDrive - OFPPT\Bureau\application de hotele\application de hotele\application de hotele\bin\Debug\Bunifu.UI.WinForms.BunifuUserControl.xml
 C:\Users\eloua\OneDrive - Zagreus\OneDrive - OFPPT\Bureau\application de hotele\application de hotele\application de hotele\bin\Debug\fr\EntityFramework.SqlServer.resources.dll
-C:\Users\eloua\OneDrive - Zagreus\OneDrive - OFPPT\Bureau\application de hotele\application de hotele\application de hotele\obj\Debug\application de hotele.exe.config
 C:\Users\eloua\OneDrive - Zagreus\OneDrive - OFPPT\Bureau\application de hotele\application de hotele\application de hotele\obj\Debug\application_de_hotele.forms.MainHub.resources
 C:\Users\eloua\OneDrive - Zagreus\OneDrive - OFPPT\Bureau\application de hotele\application de hotele\application de hotele\obj\Debug\application_de_hotele.UserControl1.resources
 C:\Users\eloua\OneDrive - Zagreus\OneDrive - OFPPT\Bureau\application de hotele\application de hotele\application de hotele\obj\Debug\application_de_hotele.addControl.resources
@@ -115,3 +113,7 @@ C:\Users\eloua\OneDrive - Zagreus\OneDrive - OFPPT\Bureau\application de hotele\
 C:\Users\eloua\OneDrive - Zagreus\OneDrive - OFPPT\Bureau\application de hotele\application de hotele\application de hotele\obj\Debug\application_de_hotele.Controls.RemoveControl.resources
 C:\Users\eloua\OneDrive - Zagreus\OneDrive - OFPPT\Bureau\application de hotele\application de hotele\application de hotele\obj\Debug\application_de_hotele.Controls.UpdateControl.resources
 C:\Users\eloua\OneDrive - Zagreus\OneDrive - OFPPT\Bureau\application de hotele\application de hotele\application de hotele\obj\Debug\application_de_hotele.forms.Rooms.resources
+C:\Users\eloua\OneDrive - Zagreus\OneDrive - OFPPT\Bureau\application de hotele\application de hotele\application de hotele\obj\Debug\application_de_hotele.forms.Rapport.resources
+C:\Users\eloua\OneDrive - Zagreus\OneDrive - OFPPT\Bureau\application de hotele\application de hotele\application de hotele\obj\Debug\application_de_hotele.forms.Stats.resources
+C:\Users\eloua\OneDrive - Zagreus\OneDrive - OFPPT\Bureau\application de hotele\application de hotele\application de hotele\bin\Debug\Bunifu.Charts.WinForms.dll
+C:\Users\eloua\OneDrive - Zagreus\OneDrive - OFPPT\Bureau\application de hotele\application de hotele\application de hotele\bin\Debug\Bunifu.Charts.WinForms.xml

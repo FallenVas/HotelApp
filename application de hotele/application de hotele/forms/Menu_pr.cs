@@ -14,7 +14,7 @@ namespace application_de_hotele.forms
     
     public partial class Menu_pr : Form
     {
-        string cnxStr = "Server=3elhotel.database.windows.net;Database=fakeData;User Id=nightzokssa;Password=Darkzokssa1;";
+        string cnxStr = "server=eldb.cfev9d8jukdt.us-east-2.rds.amazonaws.com,1433; Database=HotelApp;User Id=admin;Password=Nightzokssa1;";
         public Menu_pr()
         {
             InitializeComponent();
@@ -83,6 +83,18 @@ namespace application_de_hotele.forms
             void thread()
             {
                 Application.Run(new Rooms());
+            }
+            th = new Thread(thread);
+            th.SetApartmentState(ApartmentState.STA);
+            th.Start();
+            this.Close();
+        }
+
+        private void rptButton_Click(object sender, EventArgs e)
+        {
+            void thread()
+            {
+                Application.Run(new Rapport());
             }
             th = new Thread(thread);
             th.SetApartmentState(ApartmentState.STA);

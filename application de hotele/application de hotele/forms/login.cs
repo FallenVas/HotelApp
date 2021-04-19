@@ -23,13 +23,13 @@ namespace application_de_hotele.forms
         //    int nHeightEllipse
 
         //    );
-        private UserEntities db;
+        private HotelAppEntities db;
         //class connexion
         classe.Connextion C = new classe.Connextion();
         public login()
         {
             InitializeComponent();
-            db = new UserEntities();
+            db = new HotelAppEntities();
         }
         
         string testvalidation()

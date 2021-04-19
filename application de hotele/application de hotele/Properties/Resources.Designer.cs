@@ -143,6 +143,16 @@ namespace application_de_hotele.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap customer_52px {
+            get {
+                object obj = ResourceManager.GetObject("customer_52px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap database_52px {
             get {
                 object obj = ResourceManager.GetObject("database_52px", resourceCulture);
@@ -156,6 +166,16 @@ namespace application_de_hotele.Properties {
         internal static System.Drawing.Bitmap database_52px1 {
             get {
                 object obj = ResourceManager.GetObject("database_52px1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap dollar_account_48px {
+            get {
+                object obj = ResourceManager.GetObject("dollar_account_48px", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -186,6 +206,16 @@ namespace application_de_hotele.Properties {
         internal static System.Drawing.Bitmap house_240px {
             get {
                 object obj = ResourceManager.GetObject("house_240px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap housep_240px {
+            get {
+                object obj = ResourceManager.GetObject("housep_240px", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -296,6 +326,16 @@ namespace application_de_hotele.Properties {
         internal static System.Drawing.Bitmap user_64px {
             get {
                 object obj = ResourceManager.GetObject("user_64px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap user_64px1 {
+            get {
+                object obj = ResourceManager.GetObject("user_64px1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

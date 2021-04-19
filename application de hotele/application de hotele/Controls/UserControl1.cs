@@ -12,7 +12,7 @@ namespace application_de_hotele
 {
     public partial class UserControl1 : UserControl
     {
-        string cnxStr = "Server=3elhotel.database.windows.net;Database=fakeData;User Id=nightzokssa;Password=Darkzokssa1;";
+        string cnxStr = "server=eldb.cfev9d8jukdt.us-east-2.rds.amazonaws.com,1433; Database=HotelApp;User Id=admin;Password=Nightzokssa1;";
         public UserControl1()
         {
             InitializeComponent();
