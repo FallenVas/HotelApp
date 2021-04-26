@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="RapportStoreContainer" CdmEntityContainer="RapportEntities2">
+    <EntitySetMapping Name="fournisseurs">
+      <EntityTypeMapping TypeName="Rapport.fournisseur">
+        <MappingFragment StoreEntitySet="fournisseur">
+          <ScalarProperty Name="idFournisseur" ColumnName="idFournisseur" />
+          <ScalarProperty Name="nomFournisseur" ColumnName="nomFournisseur" />
+          <ScalarProperty Name="adressFournisseur" ColumnName="adressFournisseur" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="products">
+      <EntityTypeMapping TypeName="Rapport.product">
+        <MappingFragment StoreEntitySet="product">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="reference" ColumnName="reference" />
+          <ScalarProperty Name="price" ColumnName="price" />
+          <ScalarProperty Name="quantity" ColumnName="quantity" />
+          <ScalarProperty Name="idFournisseur" ColumnName="idFournisseur" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

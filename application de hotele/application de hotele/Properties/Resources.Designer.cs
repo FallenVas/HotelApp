@@ -63,6 +63,16 @@ namespace application_de_hotele.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _200 {
+            get {
+                object obj = ResourceManager.GetObject("200", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _35181_NZV3DS {
             get {
                 object obj = ResourceManager.GetObject("35181-NZV3DS", resourceCulture);
@@ -223,6 +233,26 @@ namespace application_de_hotele.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap list_128px {
+            get {
+                object obj = ResourceManager.GetObject("list_128px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap list_240px {
+            get {
+                object obj = ResourceManager.GetObject("list_240px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap LogoTrans {
             get {
                 object obj = ResourceManager.GetObject("LogoTrans", resourceCulture);
@@ -286,6 +316,26 @@ namespace application_de_hotele.Properties {
         internal static System.Drawing.Bitmap search_64px {
             get {
                 object obj = ResourceManager.GetObject("search_64px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap tenor {
+            get {
+                object obj = ResourceManager.GetObject("tenor", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap tenor__1_ {
+            get {
+                object obj = ResourceManager.GetObject("tenor (1)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

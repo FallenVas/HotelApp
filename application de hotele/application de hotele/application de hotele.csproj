@@ -186,6 +186,30 @@
       <DependentUpon>addControl.cs</DependentUpon>
     </Compile>
     <Compile Include="classe\Connextion.cs" />
+    <Compile Include="Controls\Products\AddProduct.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Products\AddProduct.Designer.cs">
+      <DependentUpon>AddProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Products\AllProducts.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Products\AllProducts.Designer.cs">
+      <DependentUpon>AllProducts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Products\RemoveProduct.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Products\RemoveProduct.Designer.cs">
+      <DependentUpon>RemoveProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Products\UpdateProduct.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Products\UpdateProduct.Designer.cs">
+      <DependentUpon>UpdateProduct.cs</DependentUpon>
+    </Compile>
     <Compile Include="Controls\RemoveControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -197,6 +221,12 @@
     </Compile>
     <Compile Include="Controls\UpdateControl.Designer.cs">
       <DependentUpon>UpdateControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Error.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Error.Designer.cs">
+      <DependentUpon>Error.cs</DependentUpon>
     </Compile>
     <Compile Include="forms\Form_loding.cs">
       <SubType>Form</SubType>
@@ -222,6 +252,12 @@
     <Compile Include="forms\Menu_pr.Designer.cs">
       <DependentUpon>Menu_pr.cs</DependentUpon>
     </Compile>
+    <Compile Include="forms\Product.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\Product.Designer.cs">
+      <DependentUpon>Product.cs</DependentUpon>
+    </Compile>
     <Compile Include="forms\Rapport.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -240,6 +276,9 @@
     <Compile Include="forms\Stats.Designer.cs">
       <DependentUpon>Stats.cs</DependentUpon>
     </Compile>
+    <Compile Include="fournisseur.cs">
+      <DependentUpon>Rapport.tt</DependentUpon>
+    </Compile>
     <Compile Include="Model1.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -255,6 +294,21 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Model1.edmx</DependentUpon>
     </Compile>
+    <Compile Include="Peace.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Peace.Designer.cs">
+      <DependentUpon>Peace.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Power.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Power.Designer.cs">
+      <DependentUpon>Power.cs</DependentUpon>
+    </Compile>
+    <Compile Include="product.cs">
+      <DependentUpon>Rapport.tt</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Controls\UserControl1.cs">
@@ -262,6 +316,21 @@
     </Compile>
     <Compile Include="Controls\UserControl1.Designer.cs">
       <DependentUpon>UserControl1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Rapport.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rapport.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Rapport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rapport.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Rapport.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rapport.edmx</DependentUpon>
     </Compile>
     <Compile Include="user.cs">
       <DependentUpon>Model1.tt</DependentUpon>
@@ -272,11 +341,26 @@
     <EmbeddedResource Include="Controls\addControl.resx">
       <DependentUpon>addControl.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Products\AddProduct.resx">
+      <DependentUpon>AddProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Products\AllProducts.resx">
+      <DependentUpon>AllProducts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Products\RemoveProduct.resx">
+      <DependentUpon>RemoveProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Products\UpdateProduct.resx">
+      <DependentUpon>UpdateProduct.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Controls\RemoveControl.resx">
       <DependentUpon>RemoveControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Controls\UpdateControl.resx">
       <DependentUpon>UpdateControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Error.resx">
+      <DependentUpon>Error.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="forms\Form_loding.resx">
       <DependentUpon>Form_loding.cs</DependentUpon>
@@ -293,6 +377,9 @@
     <EmbeddedResource Include="forms\Menu_pr.resx">
       <DependentUpon>Menu_pr.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="forms\Product.resx">
+      <DependentUpon>Product.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="forms\Rapport.resx">
       <DependentUpon>Rapport.cs</DependentUpon>
     </EmbeddedResource>
@@ -301,6 +388,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="forms\Stats.resx">
       <DependentUpon>Stats.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Peace.resx">
+      <DependentUpon>Peace.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Power.resx">
+      <DependentUpon>Power.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -338,6 +431,13 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <EntityDeploy Include="Rapport.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>Rapport.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="Rapport.edmx.diagram">
+      <DependentUpon>Rapport.edmx</DependentUpon>
+    </None>
     <None Include="Resources\hotel.png" />
   </ItemGroup>
   <ItemGroup>
@@ -391,6 +491,21 @@
       <DependentUpon>Model1.edmx</DependentUpon>
       <LastGenOutput>Model1.cs</LastGenOutput>
     </Content>
+    <Content Include="Rapport.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Rapport.edmx</DependentUpon>
+      <LastGenOutput>Rapport.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Rapport.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Rapport.edmx</DependentUpon>
+      <LastGenOutput>Rapport.cs</LastGenOutput>
+    </Content>
+    <None Include="Resources\tenor %281%29.gif" />
+    <None Include="Resources\200.gif" />
+    <None Include="Resources\tenor.gif" />
+    <None Include="Resources\list_240px.png" />
+    <None Include="Resources\list_128px.png" />
     <None Include="Resources\housep_240px.png" />
     <None Include="Resources\customer_52px.png" />
     <None Include="Resources\user_64px1.png" />

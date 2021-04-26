@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Rapport.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="fournisseur">
+    <Key>
+      <PropertyRef Name="idFournisseur" />
+    </Key>
+    <Property Name="idFournisseur" Type="int" Nullable="false" />
+    <Property Name="nomFournisseur" Type="varchar" MaxLength="255" />
+    <Property Name="adressFournisseur" Type="varchar" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="product">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" />
+    <Property Name="reference" Type="varchar" MaxLength="255" />
+    <Property Name="price" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="quantity" Type="int" />
+    <Property Name="idFournisseur" Type="int" />
+  </EntityType>
+  <Association Name="FK__product__idFourn__45F365D3">
+    <End Role="fournisseur" Type="Self.fournisseur" Multiplicity="0..1" />
+    <End Role="product" Type="Self.product" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="fournisseur">
+        <PropertyRef Name="idFournisseur" />
+      </Principal>
+      <Dependent Role="product">
+        <PropertyRef Name="idFournisseur" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="RapportStoreContainer">
+    <EntitySet Name="fournisseur" EntityType="Self.fournisseur" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="product" EntityType="Self.product" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__product__idFourn__45F365D3" Association="Self.FK__product__idFourn__45F365D3">
+      <End Role="fournisseur" EntitySet="fournisseur" />
+      <End Role="product" EntitySet="product" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

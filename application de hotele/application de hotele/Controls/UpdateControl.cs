@@ -27,8 +27,7 @@ namespace application_de_hotele.Controls
                 SqlCommand command = new SqlCommand();
                 if (searchTxt.Text.Trim().Length > 0)
                 {
-                    bunifuPanel2.Visible = true;
-                    bunifuPanel3.Visible = true;
+                    
                     command.Connection = cn;
                     command.CommandText = "SearchID";
                     command.CommandType = CommandType.StoredProcedure;
@@ -36,21 +35,32 @@ namespace application_de_hotele.Controls
                     SqlDataReader reader = command.ExecuteReader();
                     DataTable data = new DataTable();
                     data.Load(reader);
-                    idTxt.Text = data.Rows[0][0].ToString();
-                    nomTxt.Text = data.Rows[0][1].ToString();
-                    prenomTxt.Text = data.Rows[0][2].ToString();
-                    cinTxt.Text = data.Rows[0][3].ToString();
-                    dateDebut.Value = DateTime.Parse(data.Rows[0][4].ToString());
-                    dateFin.Value = DateTime.Parse(data.Rows[0][5].ToString());
-                    if(data.Rows[0][6].ToString() == "True")
+                    if (data.Rows.Count != 0)
                     {
-                        CheckedIn.Checked = true  ;
+                        bunifuPanel2.Visible = true;
+                        bunifuPanel3.Visible = true;
+                        idTxt.Text = searchTxt.Text;
+                        nomTxt.Text = data.Rows[0][1].ToString();
+                        prenomTxt.Text = data.Rows[0][2].ToString();
+                        cinTxt.Text = data.Rows[0][3].ToString();
+                        dateDebut.Value = DateTime.Parse(data.Rows[0][4].ToString());
+                        dateFin.Value = DateTime.Parse(data.Rows[0][5].ToString());
+                        if (data.Rows[0][6].ToString() == "True")
+                        {
+                            CheckedIn.Checked = true;
+                        }
+                        else
+                        {
+                            CheckedIn.Checked = false;
+                        }
+                        roomNumber.Text = data.Rows[0][7].ToString();
                     }
                     else
                     {
-                        CheckedIn.Checked = false;
+                        Error error = new Error();
+                        error.Show();
+                        error.Focus();
                     }
-                    roomNumber.Text = data.Rows[0][7].ToString();
                 }
                 
 

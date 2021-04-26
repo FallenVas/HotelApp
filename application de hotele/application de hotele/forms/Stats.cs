@@ -14,6 +14,8 @@ namespace application_de_hotele.forms
 {
     public partial class Stats : Form
     {
+        RapportEntities2 context = new RapportEntities2();
+        
         string cnxStr = "server=eldb.cfev9d8jukdt.us-east-2.rds.amazonaws.com,1433; Database=HotelApp;User Id=admin;Password=Nightzokssa1;";
         public Stats()
         {
@@ -28,15 +30,7 @@ namespace application_de_hotele.forms
         }
         private void getIncomeData()
         {
-            using(SqlConnection cn = new SqlConnection(cnxStr))
-            {
-                SqlCommand command = new SqlCommand("select sum(priceRoom) from room inner join client on roomNumber = idRoom", cn);
-                cn.Open();
-                SqlDataReader reader = command.ExecuteReader();
-                DataTable table = new DataTable();
-                table.Load(reader);
-                incomeLbl.Text = table.Rows[0][0].ToString();
-            }
+            double total2 = 0;
             for(int counter = 1; counter < 13; counter++)
             {
                 using (SqlConnection cn = new SqlConnection(cnxStr))
@@ -48,23 +42,29 @@ namespace application_de_hotele.forms
                     SqlDataReader reader = command.ExecuteReader();
                     DataTable table = new DataTable();
                     table.Load(reader);
+                    SqlCommand command2 = new SqlCommand("deletedCustomersIncomePerMonth", cn);
+                    command2.CommandType = CommandType.StoredProcedure;
+                    command2.Parameters.AddWithValue("@counter", counter);
+                    SqlDataReader reader2 = command2.ExecuteReader();
+                    DataTable table2 = new DataTable();
+                    table2.Load(reader2);
+                    double def2 = 0;
                     double def = 0;
                     bool success=double.TryParse(table.Rows[0][0].ToString(), out def);
-                    incomeLineChart.Data.Add(def);
+                    bool success2 = double.TryParse(table2.Rows[0][0].ToString(), out def2);
+                    double total = def + def2;
+                  
+                    var products = context.products.Sum(p => p.price);
+                    total = total - (double)products;
+                    total2 += total;
+                    incomeLineChart.Data.Add(total);
                 }
             }
+            incomeLbl.Text = total2.ToString();
         }
         private void getCustomersData()
         {
-            using (SqlConnection cn = new SqlConnection(cnxStr))
-            {
-                SqlCommand command = new SqlCommand("select count(idClient) from room inner join client on roomNumber = idRoom", cn);
-                cn.Open();
-                SqlDataReader reader = command.ExecuteReader();
-                DataTable table = new DataTable();
-                table.Load(reader);
-                customerLbl.Text = table.Rows[0][0].ToString();
-            }
+            double total2 = 0;
             for (int counter = 1; counter < 13; counter++)
             {
                 using (SqlConnection cn = new SqlConnection(cnxStr))
@@ -76,11 +76,22 @@ namespace application_de_hotele.forms
                     SqlDataReader reader = command.ExecuteReader();
                     DataTable table = new DataTable();
                     table.Load(reader);
+                    SqlCommand command2 = new SqlCommand("deletedCustomersPerMonth", cn);
+                    command2.CommandType = CommandType.StoredProcedure;
+                    command2.Parameters.AddWithValue("@counter", counter);
+                    SqlDataReader reader2 = command2.ExecuteReader();
+                    DataTable table2 = new DataTable();
+                    table2.Load(reader2);
+                    double def2 = 0;
                     double def = 0;
+                    bool success2 = double.TryParse(table2.Rows[0][0].ToString(), out def2);
                     bool success = double.TryParse(table.Rows[0][0].ToString(), out def);
-                    customerLineChart.Data.Add(def);
+                    double total = def + def2;
+                    total2 += total;
+                    customerLineChart.Data.Add(total);
                 }
             }
+            customerLbl.Text = total2.ToString();
         }
         private void getAvailableRooms()
         {

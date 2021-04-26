@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="Rapport.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="fournisseur">
+          <Key>
+            <PropertyRef Name="idFournisseur" />
+          </Key>
+          <Property Name="idFournisseur" Type="int" Nullable="false" />
+          <Property Name="nomFournisseur" Type="varchar" MaxLength="255" />
+          <Property Name="adressFournisseur" Type="varchar" MaxLength="255" />
+        </EntityType>
+        <EntityType Name="product">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" Nullable="false" />
+          <Property Name="reference" Type="varchar" MaxLength="255" />
+          <Property Name="price" Type="decimal" Precision="18" Scale="0" />
+          <Property Name="quantity" Type="int" />
+          <Property Name="idFournisseur" Type="int" />
+        </EntityType>
+        <Association Name="FK__product__idFourn__45F365D3">
+          <End Role="fournisseur" Type="Self.fournisseur" Multiplicity="0..1" />
+          <End Role="product" Type="Self.product" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="fournisseur">
+              <PropertyRef Name="idFournisseur" />
+            </Principal>
+            <Dependent Role="product">
+              <PropertyRef Name="idFournisseur" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="RapportStoreContainer">
+          <EntitySet Name="fournisseur" EntityType="Self.fournisseur" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="product" EntityType="Self.product" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK__product__idFourn__45F365D3" Association="Self.FK__product__idFourn__45F365D3">
+            <End Role="fournisseur" EntitySet="fournisseur" />
+            <End Role="product" EntitySet="product" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="Rapport" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="fournisseur">
+          <Key>
+            <PropertyRef Name="idFournisseur" />
+          </Key>
+          <Property Name="idFournisseur" Type="Int32" Nullable="false" />
+          <Property Name="nomFournisseur" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="adressFournisseur" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="products" Relationship="Self.FK__product__idFourn__45F365D3" FromRole="fournisseur" ToRole="product" />
+        </EntityType>
+        <EntityType Name="product">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" />
+          <Property Name="reference" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="price" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="quantity" Type="Int32" />
+          <Property Name="idFournisseur" Type="Int32" />
+          <NavigationProperty Name="fournisseur" Relationship="Self.FK__product__idFourn__45F365D3" FromRole="product" ToRole="fournisseur" />
+        </EntityType>
+        <Association Name="FK__product__idFourn__45F365D3">
+          <End Role="fournisseur" Type="Self.fournisseur" Multiplicity="0..1" />
+          <End Role="product" Type="Self.product" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="fournisseur">
+              <PropertyRef Name="idFournisseur" />
+            </Principal>
+            <Dependent Role="product">
+              <PropertyRef Name="idFournisseur" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="RapportEntities2" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="fournisseurs" EntityType="Self.fournisseur" />
+          <EntitySet Name="products" EntityType="Self.product" />
+          <AssociationSet Name="FK__product__idFourn__45F365D3" Association="Self.FK__product__idFourn__45F365D3">
+            <End Role="fournisseur" EntitySet="fournisseurs" />
+            <End Role="product" EntitySet="products" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="RapportStoreContainer" CdmEntityContainer="RapportEntities2">
+          <EntitySetMapping Name="fournisseurs">
+            <EntityTypeMapping TypeName="Rapport.fournisseur">
+              <MappingFragment StoreEntitySet="fournisseur">
+                <ScalarProperty Name="idFournisseur" ColumnName="idFournisseur" />
+                <ScalarProperty Name="nomFournisseur" ColumnName="nomFournisseur" />
+                <ScalarProperty Name="adressFournisseur" ColumnName="adressFournisseur" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="products">
+            <EntityTypeMapping TypeName="Rapport.product">
+              <MappingFragment StoreEntitySet="product">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="reference" ColumnName="reference" />
+                <ScalarProperty Name="price" ColumnName="price" />
+                <ScalarProperty Name="quantity" ColumnName="quantity" />
+                <ScalarProperty Name="idFournisseur" ColumnName="idFournisseur" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

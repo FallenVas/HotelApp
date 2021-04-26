@@ -16,7 +16,7 @@ namespace application_de_hotele
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new forms.Menu_pr());
+            Application.Run(new forms.Product());
         }
     }
 }

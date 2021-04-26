@@ -113,5 +113,17 @@ namespace application_de_hotele.forms
         {
             Application.Exit();
         }
+
+        private void ProductsBtn_Click(object sender, EventArgs e)
+        {
+            void thread()
+            {
+                Application.Run(new Product());
+            }
+            th = new Thread(thread);
+            th.SetApartmentState(ApartmentState.STA);
+            th.Start();
+            this.Close();
+        }
     }
 }

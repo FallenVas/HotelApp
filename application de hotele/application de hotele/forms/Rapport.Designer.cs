@@ -30,8 +30,8 @@ namespace application_de_hotele.forms
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel4 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
@@ -62,6 +62,16 @@ namespace application_de_hotele.forms
             this.panel1.Size = new System.Drawing.Size(108, 371);
             this.panel1.TabIndex = 1;
             // 
+            // panel2
+            // 
+            this.panel2.BackgroundImage = global::application_de_hotele.Properties.Resources._35181_NZV3DS;
+            this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel2.Location = new System.Drawing.Point(0, 0);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(108, 75);
+            this.panel2.TabIndex = 6;
+            // 
             // pictureBox1
             // 
             this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -73,16 +83,6 @@ namespace application_de_hotele.forms
             this.pictureBox1.TabIndex = 7;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
-            // 
-            // panel2
-            // 
-            this.panel2.BackgroundImage = global::application_de_hotele.Properties.Resources._35181_NZV3DS;
-            this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel2.Location = new System.Drawing.Point(0, 0);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(108, 75);
-            this.panel2.TabIndex = 6;
             // 
             // panel4
             // 
@@ -221,6 +221,7 @@ namespace application_de_hotele.forms
             this.ProductsBtn.TabIndex = 4;
             this.ProductsBtn.Text = "Products";
             this.ProductsBtn.UseVisualStyleBackColor = false;
+            this.ProductsBtn.Click += new System.EventHandler(this.ProductsBtn_Click);
             this.ProductsBtn.MouseEnter += new System.EventHandler(this.roomButton_MouseEnter);
             this.ProductsBtn.MouseLeave += new System.EventHandler(this.roomButton_MouseEnter);
             // 

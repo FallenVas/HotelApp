@@ -117,3 +117,12 @@ C:\Users\eloua\OneDrive - Zagreus\OneDrive - OFPPT\Bureau\application de hotele\
 C:\Users\eloua\OneDrive - Zagreus\OneDrive - OFPPT\Bureau\application de hotele\application de hotele\application de hotele\obj\Debug\application_de_hotele.forms.Stats.resources
 C:\Users\eloua\OneDrive - Zagreus\OneDrive - OFPPT\Bureau\application de hotele\application de hotele\application de hotele\bin\Debug\Bunifu.Charts.WinForms.dll
 C:\Users\eloua\OneDrive - Zagreus\OneDrive - OFPPT\Bureau\application de hotele\application de hotele\application de hotele\bin\Debug\Bunifu.Charts.WinForms.xml
+C:\Users\eloua\OneDrive - Zagreus\OneDrive - OFPPT\Bureau\application de hotele\application de hotele\application de hotele\obj\Debug\application de hotele.csprojAssemblyReference.cache
+C:\Users\eloua\OneDrive - Zagreus\OneDrive - OFPPT\Bureau\application de hotele\application de hotele\application de hotele\obj\Debug\application_de_hotele.Controls.Products.AllProducts.resources
+C:\Users\eloua\OneDrive - Zagreus\OneDrive - OFPPT\Bureau\application de hotele\application de hotele\application de hotele\obj\Debug\application_de_hotele.forms.Product.resources
+C:\Users\eloua\OneDrive - Zagreus\OneDrive - OFPPT\Bureau\application de hotele\application de hotele\application de hotele\obj\Debug\application_de_hotele.Controls.AddProduct.resources
+C:\Users\eloua\OneDrive - Zagreus\OneDrive - OFPPT\Bureau\application de hotele\application de hotele\application de hotele\obj\Debug\application_de_hotele.Controls.Products.RemoveProduct.resources
+C:\Users\eloua\OneDrive - Zagreus\OneDrive - OFPPT\Bureau\application de hotele\application de hotele\application de hotele\obj\Debug\application_de_hotele.Peace.resources
+C:\Users\eloua\OneDrive - Zagreus\OneDrive - OFPPT\Bureau\application de hotele\application de hotele\application de hotele\obj\Debug\application_de_hotele.Controls.Products.UpdateProduct.resources
+C:\Users\eloua\OneDrive - Zagreus\OneDrive - OFPPT\Bureau\application de hotele\application de hotele\application de hotele\obj\Debug\application_de_hotele.Power.resources
+C:\Users\eloua\OneDrive - Zagreus\OneDrive - OFPPT\Bureau\application de hotele\application de hotele\application de hotele\obj\Debug\application_de_hotele.Error.resources

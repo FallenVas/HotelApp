@@ -136,6 +136,12 @@
   <data name="search_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\search_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="list_240px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\list_240px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tenor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tenor.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="35181-NZV3DS" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\35181-NZV3DS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -151,8 +157,8 @@
   <data name="customer_52px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\customer_52px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="dollar_account_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\dollar_account_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="close" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\close.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="user" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\user.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -169,8 +175,8 @@
   <data name="database_52px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\database_52px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="user_64px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\user_64px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="housep_240px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\housep_240px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="LogoTrans" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\LogoTrans.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -178,14 +184,14 @@
   <data name="35181-NZV3DS1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\35181-NZV3DS1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="database_52px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\database_52px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="list_128px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\list_128px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="35181-NZV3DS@2x" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\35181-NZV3DS@2x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="close" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\close.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="dollar_account_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dollar_account_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="back_240px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\back_240px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -193,13 +199,22 @@
   <data name="search_240px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\search_240px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="200" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\200.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="user_64px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\user_64px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="user_64px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\user_64px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="database_52px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\database_52px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="minus_240px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\minus_240px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="housep_240px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\housep_240px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="tenor (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tenor (1).gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
